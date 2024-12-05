@@ -11,7 +11,6 @@ AWS DynamoDB for Local Systems: This Database is more like the documentDB or Mon
 - AWS DynamoDB local installation `https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html` but make sure u have JAVA installed on your system.
 - Unzip the downloaded files in a location of your choosing
 - Run`BOTH` the DynamoDBLocal_lib and DynamoDBLocal.jar within the terminal to start the JVM `java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb`
-
 NOTE: This path config is for MacBooks -> Location for the Library file, JAR file and persistentDB.
 
 ```
