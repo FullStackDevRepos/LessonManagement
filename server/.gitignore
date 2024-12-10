@@ -14,6 +14,8 @@
 .DS_Store
 *.pem
 .vs_code
+/dist
+dist
 
 # debug
 npm-debug.log*
